@@ -1,0 +1,85 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(166, 204, 243);
+    width: 100vw;
+    height: 2em;
+    position: fixed;
+    gap: 2em;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0px 0px 5px 1px;
+    padding-left: 1em;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: darkslategrey;
+    cursor: pointer;
+}
+
+.wrapper {
+    margin: 2em;
+}
+
+.intro h1 {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.intro h2 {
+    text-align: center;
+}
+
+.telinfo {
+    font-style: italic;
+}
+
+.bginfo {
+    border: 2px solid rgb(163, 163, 46);
+    padding: 0.25em;
+    text-align: justify;
+}
+
+#launchclip {
+    border: 1px solid black;
+}
+
+.footer {
+    display: flex;
+    background-color: darkslategray;
+    border: none;
+    opacity: 50%;
+    position: absolute;
+    bottom: 0;
+    height: 2em;
+    width: 100vw;
+    align-items: center;
+
+}
+
+.footer h4 {
+    color: rgb(166, 204, 243);
+    font-size: small;
+    padding-left: 1em;
+}
+
+.footer a {
+    color: rgb(166, 204, 243);
+    font-size: small;
+    cursor: pointer;
+    text-decoration: none;
+    bottom: 0;
+    padding-left: 1em;
+}
